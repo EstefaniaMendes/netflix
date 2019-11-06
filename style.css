@@ -1,0 +1,9 @@
+img {
+	width: 6%;
+}
+.caixa {
+	display: flex;
+}
+li {
+	list-style:none;
+}
