@@ -4,33 +4,31 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title> Document</title>
+	<title>Netflix</title>
 </head>
 <body>
- <header>
- 	<nav class="menu-container">...
- 	</nav>
- 	<div class="Nav">
- 		<span class="searchBox">
- 			<img src="netflix.png" alt="No">
- 		<!-- <input type="text" class="searchInput" placeholder="titulos e gêneros"> -->
- 		</span>
- 	<!-- <p class="InfantilTag">INFANTIL</p> -->
- 		<img src="">
+ <header>	
+ 	<div class="menu-block">
+ 		<img class="netflix" src="netflix.png" alt="No">
  		<nav class="Caixa">
- 			<ul>
+ 			<ul class="lista">
+ 				
  				<li>Início</li>
  				<li>Séries</li>
  			 	<li>Filmes</li>
  			 	<li>Adiconandos recentemente</li>
- 			 	<li>Adiconandos recentemente</li>
+ 			 	<li>Minha lista</li>
  			</ul>
  		</nav>
  	</div>
-
-
- 	
+ 		<div class="container-icon">
+ 			<img class="pesquisa" src="pesquisa.png" onclick="handleSearch()">
+ 			<input type="text" name="" id="pesquisar-block">
+ 			<p class="icone"> INFANTIL</p>
+ 			<img class="sininho" src="sininho.png">
+ 			<img class="moana" src="moana.jpg">	
+ 		</div>
  </header>
-
+ 	<script src="main.js"></script>
 </body>
 </html>
