@@ -58,3 +58,17 @@ li {
 
 }
 
+.fundo {
+	height: 100vh;
+	background-image: url('deixa a neve cair.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+button {
+	width: 9vw;
+	height: 7vh;
+	color: #ffffff;
+	background-color: #848484;
+	font-weight: 800;
+
+}
